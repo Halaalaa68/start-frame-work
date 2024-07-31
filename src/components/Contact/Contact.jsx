@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="w-full mt-28 lg:pb-28 pb-96 md:pt-10 pt-20 mb-60 flex flex-col justify-center items-center">
       <h1 className='uppercase text-[40px] font-bold text-center'>contact component</h1>
-      <Star color={'text-cyan-900'} star={'star2'}/>
+      <Star color={'text-cyan-950'} star={'star2'}/>
 <form className="mx-auto mt-10 w-1/2">
 <div className="grid md:grid-cols-1 md:gap-6 mb-8">
     <div className="relative z-0 w-full mb-5">
