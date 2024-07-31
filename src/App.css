@@ -1,0 +1,33 @@
+.title{
+  font-size: 32px;
+  font-weight: 700;
+}
+.content{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.star{
+  position: relative;
+}
+.star1::after{
+  content: "";
+  /* position: relative; */
+  height: 4px;
+  /* left: 0%; */
+  width: 90px;
+  background-color: white;
+  margin: 0px 10px 0px;
+  display: inline-block;
+  vertical-align: middle;  
+}
+.star2::before{
+  content: "";
+  /* position: absolute; */
+  height: 4px;
+  width: 90px;
+  background-color: #003444;
+  margin: 0px 10px 0px;
+  display: inline-block;
+  vertical-align: middle;
+}
